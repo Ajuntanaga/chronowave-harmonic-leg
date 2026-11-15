@@ -1,6 +1,6 @@
 # The harmonic leg — Module XV
 
-Standalone interactive extract of Module XV, "The harmonic leg", from the Chronowave Dynamics Temporal Engine: a single-file compendium of 17 interactive modules about the author's temporal framework. The full compendium, its manual and its edit log are in [chronowave-compendium](https://github.com/Ajuntanaga/chronowave-compendium). The module's own heading on the page reads: "One qubit, strung between &tau;|0&#10217; and t|1&#10217;".
+Standalone interactive extract of Module XV, "The harmonic leg", from the Chronowave Dynamics Temporal Engine: a single-file compendium of 17 interactive modules about the author's temporal framework. The full compendium, its manual and its edit log are in [chronowave-compendium](https://github.com/Ajuntanaga/chronowave-compendium). The module's own heading on the page reads: "One qubit, strung between τ|0⟩ and t|1⟩".
 
 ## Use it
 
@@ -21,7 +21,7 @@ Made on 2026-11-14 from rev b91 of the compendium page (commit `6cf22d4` of chro
 
 ## Checks and limits
 
-- A scripted headless-Chromium test loaded the page, moved every slider, select and checkbox, clicked every button and sent pointer, wheel and key events to every canvas: 79 actions (slider moves, clicks, and pointer, wheel and key events), 1 canvas, no uncaught exception and no console error. It is a smoke test: this extract was not compared with the original module for identical behaviour, and nothing here has had an independent review.
+- A scripted headless-Chromium test loaded the page, moved every slider and select, clicked every button, sent pointer and wheel events to every canvas and sent key events to the document: 79 actions (the count includes 38 fixed key and window events), 1 canvas, no uncaught exception and no console error. The page has no selects. It is a smoke test: this extract was not compared with the original module for identical behaviour, and nothing here has had an independent review.
 - The leg, its fine angle, the step and fine modes, the az1 and az2 rims, Ground flip, the voice and the chart (a double-click or double-tap on the cross-section chart is the home key) are this module's own and work here; the listening and visual behaviour was read from the code, not judged by ear.
 - The lattice of Module IV is replaced by a fixed copy of its start-up state: the identity scale {0, 2, 3, 4, 6, 8, 10} and the root at 261.63 Hz (middle C).
 - So the active scale cannot be changed (az1 and az2 always use the interval sets of the identity scale; in the compendium they follow the scale picked on the lattice), and the root pitch stays at middle C (no lattice root slider, no just-intonation tuning).
